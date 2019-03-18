@@ -1,0 +1,39 @@
+
+Gurobi 8.1.0 (mac64, Python) logging started Tue Mar 19 00:01:16 2019
+
+Academic license - for non-commercial use only
+Changed value of parameter timeLimit to 60.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter MIPGap to 0.2
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Optimize a model with 20 rows, 100 columns and 180 nonzeros
+Model has 81 general constraints
+Variable types: 10 continuous, 90 integer (90 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+01, 9e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve added 81 rows and 81 columns
+Presolve time: 0.02s
+Presolved: 101 rows, 181 columns, 387 nonzeros
+Presolved model has 81 SOS constraint(s)
+Variable types: 91 continuous, 90 integer (90 binary)
+
+Root relaxation: objective 2.540685e+02, 16 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  254.06854    0    9          -  254.06854      -     -    0s
+H    0     0                     366.4970937  254.06854  30.7%     -    0s
+     0     0  254.06854    0    9  366.49709  254.06854  30.7%     -    0s
+H    0     0                     277.0761938  254.06854  8.30%     -    0s
+
+Explored 1 nodes (16 simplex iterations) in 0.17 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 277.076 366.497 
+
+Optimal solution found (tolerance 2.00e-01)
+Best objective 2.770761938420e+02, best bound 2.540685436003e+02, gap 8.3037%
